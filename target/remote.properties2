@@ -1,0 +1,4 @@
+host=172.16.125.152
+username=gpadmin
+password=gpadmin
+command=gpsscli submit --name kafkajsonlastgp --gpss-host 172.16.125.152 --gpss-port 50009 /home/gpadmin/gpss/gpsscli.yaml
