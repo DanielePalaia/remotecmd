@@ -15,8 +15,8 @@ command=gpsscli list --gpss-host 172.16.125.152 --gpss-port 50009
 
 This will be the host, username, password and command to execute in the remote host as an example:
 
-![Screenshot](./pics/image1.png)
+![Screenshot](./images/image1.png)
 
-![Screenshot](./pics/image2.png)
+![Screenshot](./images/image2.png)
 
-![Screenshot](./pics/image3.png)
+![Screenshot](./images/image3.png)
