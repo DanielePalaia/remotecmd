@@ -15,8 +15,26 @@ command=gpsscli list --gpss-host 172.16.125.152 --gpss-port 50009
 
 This will be the host, username, password and command to execute in the remote host as an example:
 
+To submit a job with configuration:
+
+```
+host=172.16.125.152
+username=gpadmin
+password=gpadmin
+command=gpsscli submit --name kafkajsonlastgp --gpss-host 172.16.125.152 --gpss-port 50009 /home/gpadmin/gpss/gpsscli.yaml
+```
+
 ![Screenshot](./images/image1.png)
 
+To start a job with configuration:
+
+```
+host=172.16.125.152
+username=gpadmin
+password=gpadmin
+command=gpsscli start kafkajsonlastgp --gpss-host 172.16.125.152 --gpss-port 50009
+```
 ![Screenshot](./images/image2.png)
 
+same to stop the job:
 ![Screenshot](./images/image3.png)
